@@ -1,8 +1,8 @@
 description: !!python/unicode 'Code Fellows is a Seattle-based, in-person coding academy that guides people from all backgrounds to change their lives through career-focused education. They shape passionate coders with immersive training to meet industry needs and improve diversity in the tech scene.
 
-In every course, students get hands-on development experience, working in teams to apply their training and building apps that expand their skills. Advanced-level students specialize in full-stack JavaScript, Python, ASP.NET, or Java development, and contribute to the culture and goals of the companies they join.'
+In every course, students get hands-on development experience, working in teams to apply their training and building apps that expand their skills. Advanced-level students specialize in full-stack JavaScript, Python, ASP.NET, or Java development, and contribute to the culture and goals of the companies they join.
 
-  '
+'
 display_name: Code Fellows
 founded_year: 2013
 meta-description: Code Fellows reviews and cost information. Find out about Code Fellows acceptance rates.
@@ -50,7 +50,7 @@ programs:
     cities:
     - seattle
     commitment: full-time
-    cost_description: $3,500
+    cost_description: $5,000
     description: "In Code 201, you will build a strong software development foundation\
       \ by learning how to use HTML, CSS, JavaScript, and various libraries to create\
       \ fully-functional web apps.\n\nThrough studying computer science concepts\u2014\
@@ -58,7 +58,7 @@ programs:
       including Atom, Git, and Terminal\u2014you will learn the methods and tools\
       \ of professional software developers.\n\nThis course is offered as a full-time\
       \ course over four weeks, or a part-time course over eight weeks. Scholarships\
-      \ and financing are available.\n"
+      \ and financing are available."
     display_name: Foundations of Software Development
     duration: 4
     duration_units: weeks
@@ -67,7 +67,7 @@ programs:
     outcomes_verified: false
     placement: 90%+ placement rate
     reports_outcomes: false
-    scholarships: For women, U.S. veterans, and minorities
+    scholarships: For women, U.S. veterans, and those underrepresented in tech
     topics:
     - html
     - css
@@ -81,17 +81,15 @@ programs:
     cities:
     - seattle
     commitment: full-time
-    cost_description: $4,500
+    cost_description: $5,000
     description: !!python/unicode 'Code 301 takes intermediate developers and trains
       them in concepts beyond the syntax of programming languages, covering how to
-      use professional-grade tools and APIs to streamline the development process
-      and build large-scale, interactive web applications.
-
+      use professional-grade tools and APIs to create MERN-stack apps built with Mongo, 
+      Express, React, and Node.js.
 
       In this course, you will study the common core of software development, including
       MVC, Object-Oriented Programming, functional programming, asynchronous programming,
       and much more in this intensive course.
-
 
       Code 301 is offered as a full-time course over four weeks, or a part-time course
       over eight weeks. Scholarships and financing are available.
@@ -106,7 +104,7 @@ programs:
     placement: false
     reports_outcomes: false
     scholarships: For women, U.S. veterans, and minorities
-    topics:
+    topics: !!python/unicode '
     - html
     - css
     - javascript
@@ -117,12 +115,13 @@ programs:
     - algorithms
     - ajax
     - sql
+    
+    '
     tuition: 5000
     tuition_units: USD
   code-401-full-stack-javascript:
     admissions: Application, phone interview, code challenge
-    cities:
-    - seattle
+    cities: seattle
     commitment: full-time
     cost_description: $12,000
     description: !!python/unicode 'Build full-stack web applications with server-side
@@ -160,7 +159,7 @@ programs:
     placement: 90%+ placement rate
     reports_outcomes: true
     scholarships: For women, U.S. veterans, and minorities
-    topics:
+    topics: !!python/unicode '
     - javascript
     - html
     - css
@@ -177,64 +176,13 @@ programs:
     - jasmine
     - ajax
     - json
-    tuition: 12000
-    tuition_units: USD
-  code-401-ios:
-    admissions: Application, phone interview, code challenge
-    cities:
-    - seattle
-    commitment: full-time
-    cost_description: $12,000
-    description: !!python/unicode 'Take your app ideas from concept to completion
-      and learn the languages, tools, frameworks, and best practices used by mobile
-      developers around the world.
-
-
-      Throughout this intensive course, you will study professional techniques and
-      practices to advance your skills in iOS development. This course includes professional
-      development curriculum that will get you ready for your job search, plus job
-      search assistance after graduation.
-
-
-      At the end of this course, you will be able to:
-
-
-      - Create mobile apps in Objective-C and Swift, Apple''s new programming language.
-
-      - Use industry tools and frameworks such as Cocoa, Xcode, UIKit, Git, and more.
-
-      - Know how to properly use UIKit, asynchronous code, CoreImage, NSURLSession
-      and JSON, MapKit and CoreLocation, AutoLayout, Source Control, Core Data, Animation,
-      and the app submission process.
-
-      - Create a successful online brand, network, create an impressive resume, succeed
-      in personal and technical interviews, and conduct a successful job search.
-
-      '
-    display_name: Advanced Software Development in iOS
-    duration: 10
-    duration_units: weeks
-    financing: true
-    guarantee: 'No'
-    outcomes_verified: false
-    placement: 90%+ placement rate
-    reports_outcomes: true
-    scholarships: For women, U.S. veterans, and minorities
-    topics:
-    - swift
-    - objective-c
-    - xcode
-    - cocoa
-    - git
-    - rest
-    - json
-    - sdks
+    
+    '
     tuition: 12000
     tuition_units: USD
   code-401-python:
     admissions: Application, phone interview, code challenge
-    cities:
-    - seattle
+    cities: seattle
     commitment: full-time
     cost_description: $12,000
     description: !!python/unicode 'Learn the language used at NASA, Instagram, Dropbox,
@@ -269,13 +217,15 @@ programs:
     placement: 90%+ placement rate
     reports_outcomes: true
     scholarships: For women, U.S. veterans, and minorities
-    topics:
+    topics: !!python/unicode '
     - python
     - pyramid
     - django
     - rest
     - git
     - algorithms
+    
+    '
     tuition: 12000
     tuition_units: USD
 tagline: Learn to Code. Get a Job. Start Here!
