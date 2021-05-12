@@ -104,7 +104,7 @@ programs:
     placement: false
     reports_outcomes: false
     scholarships: For women, U.S. veterans, and minorities
-    topics: !!python/unicode '
+    topics:
     - html
     - css
     - javascript
@@ -115,13 +115,12 @@ programs:
     - algorithms
     - ajax
     - sql
-    
-    '
     tuition: 5000
     tuition_units: USD
   code-401-full-stack-javascript:
     admissions: Application, phone interview, code challenge
-    cities: seattle
+    cities: 
+    - seattle
     commitment: full-time
     cost_description: $12,000
     description: !!python/unicode 'Build full-stack web applications with server-side
@@ -159,7 +158,7 @@ programs:
     placement: 90%+ placement rate
     reports_outcomes: true
     scholarships: For women, U.S. veterans, and minorities
-    topics: !!python/unicode '
+    topics:
     - javascript
     - html
     - css
@@ -176,13 +175,12 @@ programs:
     - jasmine
     - ajax
     - json
-    
-    '
     tuition: 12000
     tuition_units: USD
   code-401-python:
     admissions: Application, phone interview, code challenge
-    cities: seattle
+    cities: 
+    - seattle
     commitment: full-time
     cost_description: $12,000
     description: !!python/unicode 'Learn the language used at NASA, Instagram, Dropbox,
@@ -217,15 +215,13 @@ programs:
     placement: 90%+ placement rate
     reports_outcomes: true
     scholarships: For women, U.S. veterans, and minorities
-    topics: !!python/unicode '
+    topics: 
     - python
     - pyramid
     - django
     - rest
     - git
     - algorithms
-    
-    '
     tuition: 12000
     tuition_units: USD
 tagline: Learn to Code. Get a Job. Start Here!
